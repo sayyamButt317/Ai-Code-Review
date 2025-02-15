@@ -1,0 +1,47 @@
+# General ignore patterns
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+*.swp
+*.swo
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!/.env.example # Keep the example
+
+# Package manager specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and IDE specific files
+.idea/
+*.iml
+*.pyc
+__pycache__/
+Thumbs.db
+
+# OS generated files
+.AppleDouble
+.LSOverride
+
+# Log and temp files
+*.tmp
+*.log
+*.bak
+*.diff
+*.patch
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+
+# Docker specific
+docker-compose.override.yml
